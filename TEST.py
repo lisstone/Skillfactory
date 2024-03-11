@@ -1,7 +1,7 @@
 import random
 #Выбор символа
 while True:
-    playerSymbol = input("Выбери чем быдешь играть 0 или X: ").upper()
+    playerSymbol = input("Выбери чем будешь играть 0 или X: ").upper()
     if playerSymbol == "0":
         print(f"Ваш символ: {playerSymbol}")
         AISymbol = "X"
