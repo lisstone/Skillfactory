@@ -93,8 +93,8 @@ class Table:
         self.Nulltable = Nulltable
         if self.Attacked.name == "enemy":
             while True:
-                x = int(input("Введите кординату по вертикали: "))
-                y = int(input("Введите кординату по горизонтали: "))
+                x = int(input("Введите координату по вертикали: "))
+                y = int(input("Введите координату по горизонтали: "))
                 if self.Attacked.grid[x][y] == "O":
                     self.Attacked.grid[x][y] = Box().FallShipBlock
                     self.Nulltable.grid[x][y] = Box().FallShipBlock
